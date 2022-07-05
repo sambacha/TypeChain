@@ -1,5 +1,27 @@
 # @typechain/hardhat
 
+## 6.1.2
+
+### Patch Changes
+
+- ed6f85b: Don't autodisable overrides for js projects
+- 1663b98: Respect the `--quiet` flag
+
+## 6.1.0
+
+### Minor Changes
+
+- 63691c4: - Expose `TypechainUserConfig` type.
+  - Removed `contractName` from interface output see #692 for details.
+
+### Patch Changes
+
+- de656c6: Add `dontOverrideCompile` setting
+- Updated dependencies [63691c4]
+- Updated dependencies [015abb2]
+  - typechain@8.1.0
+  - @typechain/ethers-v5@10.1.0
+
 ## 6.0.0
 
 ### Major Changes
